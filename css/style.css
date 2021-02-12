@@ -1,0 +1,270 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+.link {
+	display: block;
+	filter: drop-shadow(10px 10px 10px black);
+	overflow: hidden;
+	padding-left: 30%;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+.link__image {
+	max-width: 300px;
+	filter: drop-shadow(10px 10px 10px rgb(6, 215, 252));
+	padding: 20px;
+}
+.container {
+	background-color: black;
+	background-position: center;
+	background-size: cover;
+	display: block;
+	background-image: url(../img/cinema-movie-film.jpg);
+}
+body {
+	background: grey;
+}
+.box_pop {
+	display: block;
+	border-top: 10px solid black;
+}
+
+.popcorn {
+	background-image: url(../img/ava.png);
+	background-repeat: repeat-x;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	text-shadow: 3px 5px 5px oldlace, -3px -5px 5px oldlace;
+	overflow: auto;
+	height: 109px;
+	padding: 10px;
+}
+.gradient {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#61cfcb+0,494949+100 */
+	background: rgb(97, 207, 203); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(97, 207, 203, 1) 0%, rgba(73, 73, 73, 1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(
+		top,
+		rgba(97, 207, 203, 1) 0%,
+		rgba(73, 73, 73, 1) 100%
+	); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(
+		to bottom,
+		rgba(97, 207, 203, 1) 0%,
+		rgba(73, 73, 73, 1) 100%
+	); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61cfcb', endColorstr='#494949',GradientType=0 ); /* IE6-9 */
+}
+
+.button2 {
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #f13737;
+	padding: 20px;
+	max-width: 200px;
+	display: inline-block;
+	margin: 10px 10px;
+	text-transform: uppercase;
+	color: rgb(0, 0, 0);
+	letter-spacing: 2px;
+	text-align: center;
+	border-radius: 40px;
+	box-shadow: 2px 5px 10px black;
+}
+.gradient_grey {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#494949+0,494949+92,cecece+100&1+0,0+100 */
+	background: -moz-linear-gradient(
+		top,
+		rgba(73, 73, 73, 1) 0%,
+		rgba(73, 73, 73, 0.08) 92%,
+		rgba(206, 206, 206, 0) 100%
+	); /* FF3.6-15 */
+	background: -webkit-linear-gradient(
+		top,
+		rgba(73, 73, 73, 1) 0%,
+		rgba(73, 73, 73, 0.08) 92%,
+		rgba(206, 206, 206, 0) 100%
+	); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(
+		to bottom,
+		rgba(73, 73, 73, 1) 0%,
+		rgba(73, 73, 73, 0.08) 92%,
+		rgba(206, 206, 206, 0) 100%
+	); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#494949', endColorstr='#00cecece',GradientType=0 ); /* IE6-9 */
+}
+
+.film {
+	max-width: 150px;
+	max-height: 200px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.text {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 20px;
+	margin: 5px;
+	padding: 10px;
+}
+
+.items {
+	font-size: 0;
+	max-height: 450px;
+}
+
+.item {
+	vertical-align: top;
+	display: inline-block;
+	background-color: cadetblue;
+	max-width: 250px;
+	padding: 10px;
+	height: 390px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	margin: 10px;
+}
+
+.item span {
+	font-size: 20px;
+	margin: 10px;
+}
+ul {
+	margin-top: 20px;
+}
+.item li {
+	background-image: url(../img/like.png);
+	background-repeat: no-repeat;
+	background-size: 15px;
+	padding-left: 20px;
+	background-position: 0 1px;
+	margin: 0 0 10px 0;
+}
+.item .heart {
+	background-image: url(../img/heart.png);
+	background-repeat: no-repeat;
+	background-size: 15px;
+	padding-left: 20px;
+	background-position: 0 1px;
+	margin: 0 0 10px 0;
+}
+
+.item .anon {
+	background-image: url(../img/anon.png);
+	background-repeat: no-repeat;
+	background-size: 20px;
+	padding-left: 20px;
+	background-position: 0 1px;
+	margin: 0 0 10px 0;
+}
+.tv {
+	background-position: top;
+	background-image: url(../img/59734d927d36c15d6a670451.png);
+	background-repeat: no-repeat;
+}
+.matrix {
+	display: block;
+	padding: 100px;
+	height: 500px;
+	background: url("../img/keanu.png") 50% top / contain no-repeat,
+		url("../img/matrix-1274888_1920.png") top / cover fixed no-repeat;
+
+	border-top: 10px solid black;
+}
+/*.neo {
+	background-image: url(../img/keanu.png);
+	background-position: 10px 10px;
+	margin-top: 280px;
+}
+*/
+
+.matrix2 {
+	background: url("../img/fireworks-light-firecracker-clip-art-5aec5ae4578008.1672807015254392043584.png") top /
+			contain no-repeat,
+		url(../img/matrix-1274888_1920.png) top / cover fixed no-repeat;
+	padding: 200px;
+}
+
+.matrix3 {
+	background: url(../img/matrix-1274888_1920.png) top / cover fixed no-repeat;
+	border-bottom: 1px dotted chartreuse;
+	padding: 200px;
+}
+.list {
+	font-size: 20px;
+	font-family: Arial;
+}
+
+.list li {
+	background-image: url(../img/done.png);
+	background-repeat: no-repeat;
+	background-size: 10px;
+	padding-left: 20px;
+	background-position: 0 8px;
+}
+
+.button {
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: rgba(5, 7, 10, 0.404);
+	padding: 30px;
+	max-width: 250px;
+	display: inline-block;
+	text-transform: uppercase;
+	color: chartreuse;
+	letter-spacing: 2px;
+	border-radius: 40px;
+	box-shadow: 2px 5px 10px navy;
+	margin-left: 25%;
+}
+
+.button span {
+	background-image: url(..//img/insta.png);
+	background-size: 40px;
+	background-repeat: no-repeat;
+	background-position: 10% center;
+	padding-left: 70px;
+	display: inline-block;
+	text-align: left;
+}
+.dotted {
+	border-top: 2px dotted chartreuse;
+	border-bottom: 3px dotted chartreuse;
+}
+
+.image {
+	display: block;
+	margin-left: 17%;
+}
+.image2 {
+	display: block;
+	margin-left: 40%;
+}
